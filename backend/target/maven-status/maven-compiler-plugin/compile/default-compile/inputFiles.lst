@@ -1,9 +1,21 @@
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/SimApplication.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/controller/AuthController.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/controller/SchoolProfileController.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/controller/StudentController.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/controller/TeacherController.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/controller/UserController.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/entity/Role.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/entity/SchoolProfile.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/entity/Student.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/entity/Teacher.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/entity/User.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/payload/request/LoginRequest.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/payload/request/StudentRequest.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/payload/request/TeacherRequest.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/payload/response/JwtResponse.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/repository/SchoolProfileRepository.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/repository/StudentRepository.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/repository/TeacherRepository.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/repository/UserRepository.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/security/WebSecurityConfig.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/security/jwt/AuthEntryPointJwt.java
@@ -11,3 +23,4 @@
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/security/jwt/JwtUtils.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/security/services/UserDetailsImpl.java
 /Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/security/services/UserDetailsServiceImpl.java
+/Users/ibnuq/Project/sim-spring-bot/backend/src/main/java/com/school/sim/service/SchoolProfileService.java
