@@ -38,6 +38,10 @@ const isActive = (path) => route.path === path;
                 <router-link v-if="authStore.user?.role === 'OPERATOR' || authStore.user?.role === 'ADMIN'" to="/operator/teachers" :class="[isActive('/operator/teachers') ? 'bg-indigo-700 text-white' : 'text-indigo-100 hover:bg-indigo-500 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200']">Teachers</router-link>
                 
                 <router-link v-if="authStore.user?.role === 'OPERATOR' || authStore.user?.role === 'ADMIN'" to="/operator/students" :class="[isActive('/operator/students') ? 'bg-indigo-700 text-white' : 'text-indigo-100 hover:bg-indigo-500 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200']">Students</router-link>
+
+                <router-link to="/agendas" :class="[isActive('/agendas') ? 'bg-indigo-700 text-white' : 'text-indigo-100 hover:bg-indigo-500 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200']">Agendas</router-link>
+                
+                <router-link to="/announcements" :class="[isActive('/announcements') ? 'bg-indigo-700 text-white' : 'text-indigo-100 hover:bg-indigo-500 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200']">Announcements</router-link>
               </div>
             </div>
           </div>

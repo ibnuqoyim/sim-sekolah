@@ -44,6 +44,16 @@ const router = createRouter({
                     name: 'operator-students',
                     component: () => import('../views/OperatorStudentList.vue'),
                     meta: { requiresOperator: true }
+                },
+                {
+                    path: 'agendas',
+                    name: 'agendas',
+                    component: () => import('../views/AgendaList.vue')
+                },
+                {
+                    path: 'announcements',
+                    name: 'announcements',
+                    component: () => import('../views/AnnouncementList.vue')
                 }
             ]
         }

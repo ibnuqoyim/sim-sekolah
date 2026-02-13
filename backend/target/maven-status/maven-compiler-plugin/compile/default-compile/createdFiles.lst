@@ -1,9 +1,13 @@
 com/school/sim/entity/User.class
 com/school/sim/controller/AuthController.class
+com/school/sim/entity/Agenda.class
 com/school/sim/controller/StudentController.class
 com/school/sim/entity/Teacher.class
+com/school/sim/controller/AnnouncementController.class
 com/school/sim/repository/TeacherRepository.class
+com/school/sim/entity/Announcement.class
 com/school/sim/security/jwt/JwtUtils.class
+com/school/sim/entity/TargetAudience.class
 com/school/sim/repository/UserRepository.class
 com/school/sim/payload/request/StudentRequest.class
 com/school/sim/security/services/UserDetailsServiceImpl.class
@@ -15,6 +19,9 @@ com/school/sim/security/services/UserDetailsImpl.class
 com/school/sim/payload/request/LoginRequest.class
 com/school/sim/security/jwt/AuthEntryPointJwt.class
 com/school/sim/repository/StudentRepository.class
+com/school/sim/repository/AgendaRepository.class
+com/school/sim/controller/AgendaController.class
+com/school/sim/repository/AnnouncementRepository.class
 com/school/sim/SimApplication.class
 com/school/sim/controller/SchoolProfileController.class
 com/school/sim/repository/SchoolProfileRepository.class
