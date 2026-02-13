@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: sim-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sim_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+server:
+  port: 8080
+
+sim:
+  app:
+    jwtSecret: U2VjcmV0S2V5V2l0aEVub3VnaEVudHJvcHlGb3JITUFDU0hBMjU2X1Nob3VsZEJlVmVyeUxvbmdBbmRDb21wbGV4
+    jwtExpirationMs: 86400000
